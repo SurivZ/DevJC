@@ -15,7 +15,7 @@ class MainActivity : ComponentActivity() {
         setTheme(R.style.Theme_DevJC)
         super.onCreate(savedInstanceState)
         setContent(content = {
-            DevJCTheme(darkTheme = true, content = {
+            DevJCTheme(content = {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
