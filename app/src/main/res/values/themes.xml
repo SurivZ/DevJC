@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DevJC" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#0027B3</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.DevJC">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+</resources>
